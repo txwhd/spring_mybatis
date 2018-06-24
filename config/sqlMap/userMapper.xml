@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="test">
-    <!--id 标识用户映射的sql  statement id-->
+    <!--
+    id 标识用户映射的sql  statement id
+    #{} 占位符
+    ${} 拼接符 可能会造成sql注入
+    -->
     <select id="findUserById" parameterType="int" resultType="com.company.po.User">
         SELECT * FROM `user` WHERE id = #{id}
+
+    </select>
+
+
+    <select id="findUserByName" parameterType="String" resultType="com.company.po.User">
+        SELECT * FROM `user` WHERE NAME LIKE '%${value}%'
 
     </select>
 </mapper>
