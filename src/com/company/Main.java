@@ -10,6 +10,7 @@ import org.junit.Test;
 import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 public class Main {
 
@@ -38,4 +39,30 @@ public class Main {
         sqlSession.close();
 
     }
+
+    @Test
+
+    public void findUserByNameTest() throws IOException {
+
+        //mybatis 配置文件
+        String resource = "SqlMapperConfig.xml";
+
+        //配置文件流
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+
+        //创建会话工厂
+        SqlSessionFactory sqlSessionFactory =  new SqlSessionFactoryBuilder().build(inputStream);
+
+        //通过工厂得到sqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        //通过sqlSession操作数据库
+        List<User> users = sqlSession.selectList("test.findUserByName","ding");
+
+        System.out.println(users.toString());
+
+        sqlSession.close();
+
+    }
+
 }
