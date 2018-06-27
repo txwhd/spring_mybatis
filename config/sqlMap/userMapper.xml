@@ -36,4 +36,13 @@
         INSERT INTO `user`(`name`,address,birsday) VALUES(#{name},#{address},#{birsday})
 
     </insert>
+
+    <!-- 删除方法 -->
+    <delete id="deleteUser" parameterType="int">
+        DELETE FROM `user` WHERE id = #{id}
+    </delete>
+    <!-- 更新方法-->
+    <update id="updateUser" parameterType="com.company.po.User">
+        UPDATE `user` SET `name` = #{name},address = #{address},birsday = #{birsday} WHERE id = #{id}
+    </update>
 </mapper>
