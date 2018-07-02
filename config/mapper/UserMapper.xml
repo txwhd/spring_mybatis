@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.mapper.UserMapper">
+    <!--
+    id 标识用户映射的sql  statement id
+    #{} 占位符
+    ${} 拼接符 可能会造成sql注入
+    -->
+    <select id="findUserById" parameterType="int" resultType="com.company.po.User">
+        SELECT * FROM `user` WHERE id = #{id}
+
+    </select>
+
+
+    <select id="findUserByName" parameterType="String" resultType="com.company.po.User">
+        SELECT * FROM `user` WHERE NAME LIKE '%${value}%'
+
+    </select>
+
+    <!--
+
+     LAST_INSERT_ID() 得到刚刚插入的主键，适用于自增主键
+     keyProperty 将查询到的主键设置到user的属性中
+     resultType  返回结果类型
+     order 执行顺序
+
+     UUID(); 非自增 ，string主键
+
+     -->
+    <insert id="insertUser" parameterType="com.company.po.User">
+        <selectKey keyProperty="id" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID();
+
+        </selectKey>
+
+        INSERT INTO `user`(`name`,address,birsday) VALUES(#{name},#{address},#{birsday})
+
+    </insert>
+
+    <!-- 删除方法 -->
+    <delete id="deleteUser" parameterType="int">
+        DELETE FROM `user` WHERE id = #{id}
+    </delete>
+    <!-- 更新方法-->
+    <update id="updateUser" parameterType="com.company.po.User">
+        UPDATE `user` SET `name` = #{name},address = #{address},birsday = #{birsday} WHERE id = #{id}
+    </update>
+</mapper>
