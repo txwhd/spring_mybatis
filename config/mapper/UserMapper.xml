@@ -5,10 +5,15 @@
     id 标识用户映射的sql  statement id
     #{} 占位符
     ${} 拼接符 可能会造成sql注入
+
+    mapper 代理开发规范
+    1.mapper中xml的namespace等于mapper接口的地址
+    2.mapper.java中接口的方法名等于xml中的statement中的id相同
+    3.mapper.java中接口中参数的类型等于 parameterType的类型
+    4.mapper.java中接口的返回值类型等于resultType的类型
     -->
     <select id="findUserById" parameterType="int" resultType="com.company.po.User">
         SELECT * FROM `user` WHERE id = #{id}
-
     </select>
 
 

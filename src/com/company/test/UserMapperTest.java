@@ -10,6 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.InputStream;
+import java.util.Date;
+import java.util.List;
 
 /**
  * Created by txwhd on 2018/7/2.
@@ -36,7 +38,62 @@ public class UserMapperTest {
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
         User user =  userMapper.findUserById(4);
         System.out.println(user.toString());
+        //提交事务
+        sqlSession.close();
     }
+
+    @Test
+    public void findUserByName() throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        List<User> users =  userMapper.findUserByName("王小二");
+        System.out.println(users);
+        //提交事务
+        sqlSession.close();
+    }
+
+    @Test
+    public void insertUser() throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        User user = new User();
+        user.setName("dingding");
+        user.setAddress("杭州");
+        user.setBirsday(new Date());
+        userMapper.insertUser(user);
+        //提交事务
+        sqlSession.commit();
+
+        sqlSession.close();
+
+    }
+
+    @Test
+    public void deleteUser() throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        userMapper.deleteUser(5);
+        //提交事务
+        sqlSession.commit();
+
+        sqlSession.close();
+    }
+
+    @Test
+    public void updateUser() throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        User user = new User();
+        user.setId(4);
+        user.setName("dingding");
+        user.setAddress("杭州");
+        userMapper.updateUser(user);
+        //提交事务
+        sqlSession.commit();
+
+        sqlSession.close();
+    }
+
 
 
 }
