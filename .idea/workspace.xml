@@ -4,11 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8c4ada-8df7-41ff-b18c-339a39375bf7" name="默认的" comment="">
+    <list default="true" id="9b8c4ada-8df7-41ff-b18c-339a39375bf7" name="默认的" comment="mapper代理方式查询，修改，删除，新增">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mybatis/SqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis/SqlMapperConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/test/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/test/UserMapperTest.java" afterDir="false" />
     </list>
@@ -22,40 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="93" selection-start-line="93" selection-end-line="96" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
-                <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-                <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-                <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-                <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-                <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-                <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
+                <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+                <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+                <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+                <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+                <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+                <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqlMapperConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/SqlMapperConfig.xml">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/po/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="218">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,8 +51,8 @@
       <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            <state relative-caret-position="341">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/test/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+            <state relative-caret-position="253">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -95,8 +83,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="caoding" />
         <option value="caoding &lt;2271313916@qq.com&gt;" />
+        <option value="caoding" />
         <option value="曹丁" />
       </list>
     </option>
@@ -112,9 +100,9 @@
         <option value="$PROJECT_DIR$/config/sqlMap/userMapper.xml" />
         <option value="$PROJECT_DIR$/config/SqlMapperConfig.xml" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/config/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/company/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/config/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -138,6 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,6 +144,12 @@
             <path>
               <item name="spring_mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -162,12 +158,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,12 +184,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/company/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ant-1.9.6.jar!/" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_171" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -215,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.updateUser">
+  <component name="RunManager" selected="JUnit.UserMapperTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="">
       <option name="arquillianRunConfiguration">
         <value>
@@ -274,6 +279,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Main.insertUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="METHOD_NAME" value="insertUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="UserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -320,7 +348,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserMapperTest.findUserByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.findUserByIdMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
@@ -332,30 +360,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.test" />
       <option name="MAIN_CLASS_NAME" value="com.company.test.UserMapperTest" />
-      <option name="METHOD_NAME" value="findUserByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserMapperTest.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.test" />
-      <option name="MAIN_CLASS_NAME" value="com.company.test.UserMapperTest" />
-      <option name="METHOD_NAME" value="insertUser" />
+      <option name="METHOD_NAME" value="findUserByIdMap" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -425,19 +430,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserMapperTest" />
-      <item itemvalue="JUnit.UserMapperTest.findUserByName" />
-      <item itemvalue="JUnit.UserMapperTest.insertUser" />
       <item itemvalue="JUnit.UserMapperTest.deleteUser" />
       <item itemvalue="JUnit.UserMapperTest.updateUser" />
+      <item itemvalue="JUnit.Main.insertUserTest" />
+      <item itemvalue="JUnit.UserMapperTest.findUserByIdMap" />
+      <item itemvalue="JUnit.UserMapperTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest" />
+        <item itemvalue="JUnit.UserMapperTest.findUserByIdMap" />
+        <item itemvalue="JUnit.Main.insertUserTest" />
         <item itemvalue="JUnit.UserMapperTest.updateUser" />
         <item itemvalue="JUnit.UserMapperTest.deleteUser" />
-        <item itemvalue="JUnit.UserMapperTest.insertUser" />
-        <item itemvalue="JUnit.UserMapperTest.findUserByName" />
-        <item itemvalue="JUnit.UserMapperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +472,10 @@
       <workItem from="1530626665414" duration="19000" />
       <workItem from="1530626746358" duration="224000" />
       <workItem from="1530627539020" duration="115000" />
-      <workItem from="1530628397672" duration="2415000" />
+      <workItem from="1530628397672" duration="2942000" />
+      <workItem from="1530709695150" duration="1612000" />
+      <workItem from="1530711524388" duration="164000" />
+      <workItem from="1530711721724" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="idea 提交">
       <created>1529827829306</created>
@@ -511,43 +519,50 @@
       <option name="project" value="LOCAL" />
       <updated>1530544869128</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mapper代理方式查询，修改，删除，新增">
+      <created>1530631145337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530631145337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapperTest_findUserByName - 2018.07.03 at 22h 55m 54s.xml">
-      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_findUserByName - 2018.07.03 at 22h 56m 23s.xml">
-      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_findUserByName - 2018.07.03 at 22h 57m 52s.xml">
-      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_findUserByName - 2018.07.03 at 22h 57m 58s.xml">
-      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_findUserByName - 2018.07.03 at 22h 59m 55s.xml">
-      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_insertUser - 2018.07.03 at 23h 09m 56s.xml">
-      <configuration name="UserMapperTest.insertUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_insertUser - 2018.07.03 at 23h 10m 29s.xml">
-      <configuration name="UserMapperTest.insertUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_findUserByName - 2018.07.03 at 23h 10m 43s.xml">
-      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserMapperTest_insertUser - 2018.07.03 at 23h 10m 56s.xml">
       <configuration name="UserMapperTest.insertUser" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserMapperTest_deleteUser - 2018.07.03 at 23h 11m 50s.xml">
       <configuration name="UserMapperTest.deleteUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_insertUser - 2018.07.03 at 23h 13m 42s.xml">
+      <configuration name="UserMapperTest.insertUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_deleteUser - 2018.07.03 at 23h 13m 59s.xml">
+      <configuration name="UserMapperTest.deleteUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_updateUser - 2018.07.03 at 23h 14m 12s.xml">
+      <configuration name="UserMapperTest.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_insertUserTest - 2018.07.04 at 21h 50m 08s.xml">
+      <configuration name="Main.insertUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_insertUserTest - 2018.07.04 at 21h 51m 09s.xml">
+      <configuration name="Main.insertUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUserByIdMap - 2018.07.04 at 22h 26m 10s.xml">
+      <configuration name="UserMapperTest.findUserByIdMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUserByIdMap - 2018.07.04 at 22h 29m 01s.xml">
+      <configuration name="UserMapperTest.findUserByIdMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest - 2018.07.04 at 22h 29m 34s.xml">
+      <configuration name="UserMapperTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28998000" />
+    <option name="totallyTimeSpent" value="33844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,24 +574,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1548" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="-10" width="1935" height="1050" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50215054" side_tool="true" weight="0.52430046" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50215054" side_tool="true" weight="0.52313167" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39911634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4365362" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22416107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23242083" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -584,21 +598,21 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
-      <window_info anchor="bottom" id="检验" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="找到" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="调试" order="7" weight="0.3888889" />
+      <window_info anchor="right" id="Properties" order="3" />
       <window_info id="设计师" order="2" />
-      <window_info anchor="bottom" id="运行" order="7" sideWeight="0.49784946" weight="0.429078" />
       <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="调试" order="7" weight="0.3888889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="控制板" order="3" />
-      <window_info anchor="bottom" id="消息" order="7" weight="0.32978722" />
-      <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="运行" order="7" sideWeight="0.49784946" weight="0.429078" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="消息" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="找到" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="检验" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +626,8 @@
     <MESSAGE value="idea 提交&#10;根据 name 查询多条数据" />
     <MESSAGE value="idea 提交&#10;删除，更新数据表" />
     <MESSAGE value="idea 提交&#10;mapper代理生成dao接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea 提交&#10;mapper代理生成dao接口" />
+    <MESSAGE value="mapper代理方式查询，修改，删除，新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapper代理方式查询，修改，删除，新增" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -636,12 +651,12 @@
         <state relative-caret-position="252">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
-            <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-            <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-            <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-            <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
+            <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+            <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+            <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+            <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
           </folding>
         </state>
       </provider>
@@ -682,12 +697,12 @@
         <state relative-caret-position="189">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-            <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-            <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-            <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
+            <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+            <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+            <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+            <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
           </folding>
         </state>
       </provider>
@@ -728,12 +743,12 @@
         <state relative-caret-position="168">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-            <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-            <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-            <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
+            <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+            <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+            <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+            <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
           </folding>
         </state>
       </provider>
@@ -774,12 +789,12 @@
         <state relative-caret-position="208">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-            <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-            <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-            <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
+            <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+            <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+            <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+            <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
           </folding>
         </state>
       </provider>
@@ -798,12 +813,12 @@
         <state relative-caret-position="52">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
           <folding>
-            <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-            <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-            <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-            <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
+            <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+            <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+            <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+            <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
           </folding>
         </state>
       </provider>
@@ -954,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/config/sqlMapperConfig.xml" />
     <entry file="jar://$PROJECT_DIR$/lib/mybatis-3.4.6.jar!/org/apache/ibatis/io/Resources.class">
@@ -1003,50 +1011,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/SqlMapperConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding>
-            <marker date="1530628955724" expanded="true" signature="563:600" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="714:763" ph="SELECT * FRO... user" />
-            <marker date="1530628955724" expanded="true" signature="1089:1112" ph="SELECT LAST_... " />
-            <marker date="1530628955724" expanded="true" signature="1145:1225" ph="INSERT INTO `user`... " />
-            <marker date="1530628955724" expanded="true" signature="1317:1352" ph="DELETE FROM " />
-            <marker date="1530628955724" expanded="true" signature="1457:1550" ph="UPDATE `user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="93" selection-start-line="93" selection-end-line="96" selection-end-column="27" />
+        <state relative-caret-position="409">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/test/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+        <state relative-caret-position="253">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <marker date="1530714563176" expanded="true" signature="906:943" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1277:1326" ph="SELECT * FRO... user" />
+            <marker date="1530714563176" expanded="true" signature="1652:1675" ph="SELECT LAST_... " />
+            <marker date="1530714563176" expanded="true" signature="1708:1788" ph="INSERT INTO `user`... " />
+            <marker date="1530714563176" expanded="true" signature="1880:1915" ph="DELETE FROM " />
+            <marker date="1530714563176" expanded="true" signature="2020:2113" ph="UPDATE `user... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,7 +1105,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (171)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1107,7 +1122,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1115,7 +1129,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>junit:junit:4.12</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

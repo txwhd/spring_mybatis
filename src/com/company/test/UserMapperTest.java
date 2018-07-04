@@ -43,6 +43,16 @@ public class UserMapperTest {
     }
 
     @Test
+    public void findUserByIdMap() throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        User user =  userMapper.findUserByIdMap(4);
+        System.out.println(user.toString());
+        //提交事务
+        sqlSession.close();
+    }
+
+    @Test
     public void findUserByName() throws Exception {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);

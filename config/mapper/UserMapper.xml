@@ -12,8 +12,31 @@
     3.mapper.java中接口中参数的类型等于 parameterType的类型
     4.mapper.java中接口的返回值类型等于resultType的类型
     -->
+
+    <!--
+    resultMap
+    id: resultMap的唯一标识
+    type：最终映射的java类型 可用别名
+    -->
+
+    <resultMap id="userResultMap" type="com.company.po.User">
+        <!--
+         id: 表示查询结果集中的唯一标识
+         result： 其他属性名
+        -->
+        <id column="id_" property="id"></id>
+        <result column="username" property="name"></result>
+
+    </resultMap>
+
     <select id="findUserById" parameterType="int" resultType="com.company.po.User">
         SELECT * FROM `user` WHERE id = #{id}
+    </select>
+
+    <!-- 若resultmap在其他mapper里则应该namespace.resultmap名字-->
+
+    <select id="findUserByIdMap" parameterType="int" resultMap="userResultMap">
+        SELECT id id_,`name` username FROM `user` WHERE id = #{id}
     </select>
 
 
