@@ -72,5 +72,6 @@
     <!-- 更新方法-->
     <update id="updateUser" parameterType="com.company.po.User">
         UPDATE `user` SET `name` = #{name},address = #{address},birsday = #{birsday} WHERE id = #{id}
+        and exists (select 1 from );
     </update>
 </mapper>

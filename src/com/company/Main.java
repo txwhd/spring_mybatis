@@ -1,5 +1,4 @@
 package com.company;
-
 import com.company.po.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -37,6 +36,7 @@ public class Main {
         System.out.println(user.toString());
 
         sqlSession.close();
+
 
     }
 
@@ -115,7 +115,7 @@ public class Main {
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
         //通过sqlSession操作数据库
-        sqlSession.insert("test.deleteUser",2);
+        sqlSession.insert("test.deleteUser",18);
 
         //提交事务
         sqlSession.commit();
@@ -145,7 +145,7 @@ public class Main {
         User user = new User();
         user.setId(4);
         user.setAddress("浙江杭州");
-        user.setName("王小二");
+        user.setName("王小二1");
         user.setBirsday(new Date());
 
         //通过sqlSession操作数据库
